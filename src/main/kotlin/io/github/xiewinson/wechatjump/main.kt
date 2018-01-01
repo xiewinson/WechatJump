@@ -9,16 +9,12 @@ import tornadofx.View
 import java.io.File
 
 fun main(args: Array<String>) {
-    exec("adb devices")
     Application.launch(MyApp::class.java)
 }
 
 private fun exec(cmd: String) {
     val process = Runtime.getRuntime().exec(cmd)
     process.waitFor()
-    process.inputStream.bufferedReader().use { reader ->
-        println(reader.readText())
-    }
 }
 
 private fun execPress(duration: Int) {
