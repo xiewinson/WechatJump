@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wechatjump.iml" filepath="$PROJECT_DIR$/.idea/modules/wechatjump.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wechatjump_main.iml" filepath="$PROJECT_DIR$/.idea/modules/wechatjump_main.iml" group="wechatjump" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wechatjump_test.iml" filepath="$PROJECT_DIR$/.idea/modules/wechatjump_test.iml" group="wechatjump" />
+    </modules>
+  </component>
+</project>
